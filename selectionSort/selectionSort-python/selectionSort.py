@@ -10,7 +10,7 @@ def findSmallerElement(array):
          smaller_index = i
    return smaller_index
 
-def sortBySelection(array):
+def selection_sort(array):
    newArray = []
    for i in range(len(array)):
       smaller_index = findSmallerElement(array)
@@ -19,7 +19,7 @@ def sortBySelection(array):
    return newArray
 
 print(f'Your original array is: {listOfNumbers}')
-print(f'Your new array is: {sortBySelection(listOfNumbers)}')
+print(f'Your new array is: {selection_sort(listOfNumbers)}')
 
 """
 algoritmo O(n²)
