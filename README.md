@@ -5,5 +5,5 @@
 ### lista de algoritmos
 
 * [pesquisa binária - binary search](./binarySearch/)
-* [ordenação por seleção - sort by selection](./SortBySelection/)
+* [ordenação por seleção - selection sort](./selectionSort/)
 * [função recursiva - recursive function](./recursiveFunction/)
