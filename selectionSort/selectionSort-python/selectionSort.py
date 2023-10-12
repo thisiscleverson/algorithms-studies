@@ -12,10 +12,11 @@ def findSmallerElement(array):
 
 def selection_sort(array):
    newArray = []
-   for i in range(len(array)):
+   while(len(array)):
       smaller_index = findSmallerElement(array)
       newArray.append(array.pop(smaller_index))
       #print(array)
+      #print(newArray)
    return newArray
 
 print(f'Your original array is: {listOfNumbers}')
